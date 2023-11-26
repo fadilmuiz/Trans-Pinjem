@@ -1,0 +1,79 @@
+@import '../../styles/base';
+
+.container {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .form__wrapper {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 80vh;
+    width: 70vh;
+    backdrop-filter: blur(5px);
+
+    .form {
+      width: 40vh;
+      text-align: center;
+      width: 300px;
+
+      .input__wrapper {
+        .label {
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+
+        .input {
+          border-radius: 5px;
+          border: 2px solid rgba(210, 210, 210, 0.25);
+          background: rgba(210, 210, 210, 0.25);
+          width: 100%;
+          height: 50px;
+          outline: none;
+          font-family: 'Poppins';
+        }
+
+        .login__footer {
+          font-family: 'Roboto';
+          font-style: italic;
+          font-weight: 100;
+          line-height: normal;
+
+          .btn {
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+          }
+        }
+      }
+      .btn__login {
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        width: 30%;
+        background-color: rgb(214, 22, 22);
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+        margin: 20px;
+      }
+
+      .btn__login:hover {
+        background-color: red;
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+  }
+}

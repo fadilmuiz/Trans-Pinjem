@@ -1,0 +1,92 @@
+[
+  {
+    "type": "VARIO FI 125",
+    "pWeek": 420,
+    "pDay": 70,
+    "des": "AutomaticEngine, 125 CC, 5.5 Liter",
+    "facility": "2 Helmet 1 Rain Coat",
+    "categoryId": 1,
+    "status": "siap",
+    "image": "https://iwanbanaran.files.wordpress.com/2012/03/cbs4.jpg?w=1180"
+  },
+  {
+    "type": "SCOOPY ESP",
+    "pWeek": 450,
+    "pDay": 80,
+    "des": "AutomaticEngine, 110 CC, 3.7 Liter",
+    "facility": "2 Helmet 1 Rain Coat",
+    "categoryId": 1,
+    "status": "siap",
+    "image": "https://images.tokopedia.net/img/cache/700/attachment/2021/6/21/99215998/99215998_a72be961-4998-44c9-b297-ec481f14c021.jpg.webp?ect=4g"
+  },
+  {
+    "type": "LEXI",
+    "pWeek": 600,
+    "pDay": 100,
+    "des": "AutomaticEngine, 125 CC, 4.2 Liter",
+    "facility": "2 Helmet 1 Rain Coat",
+    "categoryId": 1,
+    "status": "siap",
+    "image": "https://arista-group.co.id/yamaha/wp-content/uploads/2023/09/Lexi-S-125-Prestige-Silver-3-2.png"
+  },
+  {
+    "type": "NEW BEAT",
+    "pWeek": 420,
+    "pDay": 70,
+    "des": "AutomaticEngine, 110 CC, 4.2 Liter",
+    "facility": "2 Helmet 1 Rain Coat",
+    "categoryId": 1,
+    "status": "siap",
+    "image": "https://imgx.gridoto.com/crop/75x41:1110x703/700x465/photo/2023/02/01/deluxe-greenjpg-20230201122511.jpg"
+  },
+  {
+    "type": "NEW NMAX",
+    "pWeek": 950,
+    "pDay": 150,
+    "des": "AutomaticEngine, 155 CC, 7.1 Liter",
+    "facility": "2 Helmet 1 Rain Coat",
+    "categoryId": 1,
+    "status": "siap",
+    "image": "https://www.yamaha-motor.co.id/uploads/products/img360/all-new-nmax155-connected/13.png"
+  },
+  {
+    "type": "VESPA SPRINT",
+    "pWeek": 1100,
+    "pDay": 175,
+    "des": "AutomaticEngine",
+    "facility": "2 Helmet 1 Rain Coat",
+    "categoryId": 1,
+    "status": "siap",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vespa.com%2Fid_ID%2Fvespa-models%2FSprint%2FSprint-150.html&psig=AOvVaw3uA6Uz89edjT8a3J9MCqGP&ust=1700886147985000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMiBnuPk24IDFQAAAAAdAAAAABAE"
+  },
+  {
+    "type": "Toyota Agya",
+    "pWeek": 2000,
+    "pDay": 220,
+    "des": "AutomaticEngine",
+    "facility": "2 Bagasi 4 Kursi",
+    "categoryId": 2,
+    "status": "siap",
+    "image": "https://awsimages.detik.net.id/community/media/visual/2020/03/19/4f335c06-b3c8-4986-9833-d60cce0f5340.jpeg?w=600&q=90"
+  },
+  {
+    "type": "Daihatsu Ayla",
+    "pWeek": 2200,
+    "pDay": 245,
+    "des": "AutomaticEngine",
+    "facility": "2 Bagasi 4 Kursi",
+    "categoryId": 2,
+    "status": "siap",
+    "image": "https://ad-cms-headless.imgix.net/assets/0bc65861-afa5-40d5-a277-fa76b6aab854?w=1024&h=512&q=65&fm=webp&auto=format&fit=max&crop=center"
+  },
+  {
+    "type": "Daihatsu Sigra",
+    "pWeek": 3400,
+    "pDay": 310,
+    "des": "AutomaticEngine",
+    "facility": "2 Bagasi 6 Kursi",
+    "categoryId": 2,
+    "status": "siap",
+    "image": "https://www.seva.id/wp-content/uploads/2023/09/shutterstock_2281082361-1.jpg"
+  }
+]

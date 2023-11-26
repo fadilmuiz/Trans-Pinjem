@@ -1,0 +1,51 @@
+@import '../../styles/base';
+
+.container {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @include directionX;
+  .error {
+    color: red;
+    font-size: 11px;
+  }
+
+  .conForm {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 80vh;
+    width: 70vh;
+    backdrop-filter: blur(5px);
+
+    .form {
+      width: 40vh;
+      text-align: center;
+
+      .bottonSub {
+        height: 40px;
+        width: 90px;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        font-weight: 600;
+        background-color: rgb(214, 22, 22);
+      }
+
+      .bottonSub:hover {
+        background-color: red;
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+  }
+}

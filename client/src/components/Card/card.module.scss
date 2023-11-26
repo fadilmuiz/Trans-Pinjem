@@ -1,0 +1,176 @@
+@import '@styles/base';
+
+.conCard {
+  background-color: #fff;
+  // overflow: hidden;
+  display: flex;
+  margin: 30px auto;
+  height: 150px;
+  width: 900px;
+  font-family: Poppins;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+
+  // @include apply-at-sm-size {
+  //   height: auto; 
+  //   flex-direction: column;
+
+  //   .conCard {
+  //   flex-direction: column;
+  //   width: 100%;
+  //   height: 570px;
+  //   padding: 0;
+  //   .image {
+  //     width: 100%;
+  //     height: 300px;
+  //   }
+
+  //   .textdes {
+  //     width: 100%;
+  //     margin-left: 0;
+
+  //     h6 {
+  //       font-size: 18px;
+  //       margin-top: 10px;
+  //       margin-bottom: 4px;
+  //     }
+
+  //     .description {
+  //       font-size: 10px;
+  //       line-height: 1;
+  //     }
+  //   }
+
+  //   .price {
+  //     font-size: 14px;
+
+  //     .btn_adm {
+  //       .button1 {
+  //         width: 100%;
+  //       }
+  //     }
+
+  //     .button {
+  //       width: 100%;
+  //     }
+  //   }
+  // }
+  // }
+
+  .image {
+    height: 150px;
+    width: 150px;
+  }
+
+  .textdes {
+    margin-left: 22px;
+    width: 600px;
+    margin-top: 15px;
+
+    .description {
+      font-size: 10px;
+      line-height: 0.4;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+    }
+
+    h6 {
+      font-size: 22px;
+      margin-top: 18px;
+      margin-bottom: 4px;
+    }
+  }
+
+  .price {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 0.8;
+
+    .btn_adm {
+      display: flex;
+      gap: 4px;
+
+      .button1 {
+        height: 34px;
+        width: 70px;
+        background-color: rgb(214, 22, 22);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-weight: 600;
+      }
+
+      .button1:hover {
+        background-color: red;
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+
+
+    .button {
+      height: 34px;
+      width: 150px;
+      background-color: rgb(214, 22, 22);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    .button:hover {
+      background-color: red;
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .conCard {
+    flex-direction: column;
+    width: 100%;
+    height: 570px;
+    padding: 0;
+    .image {
+      width: 100%;
+      height: 300px;
+    }
+
+    .textdes {
+      width: 100%;
+      margin-left: 0;
+
+      h6 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 4px;
+      }
+
+      .description {
+        font-size: 10px;
+        line-height: 1;
+      }
+    }
+
+    .price {
+      font-size: 14px;
+
+      .btn_adm {
+        .button1 {
+          width: 100%;
+        }
+      }
+
+      .button {
+        width: 100%;
+      }
+    }
+  }
+}
